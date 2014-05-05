@@ -1,9 +1,27 @@
+* {
+	margin-top:0;
+}
+
 body {
-	background-color:black;
+	background-color:white;
 }
 
 div#wrapper {
 	margin:0 auto;
 	width:1000px;
-	background-color:orange;
 }
+
+div#topimage {
+	background-image:url('../images/edited-top.jpg');
+	height:250px;
+	width:100%;
+	position:absolute;
+	z-index:-1;
+	margin-left:0;
+}
+
+div#navbar{
+	background-color:black;
+	height:50px;
+}
+
