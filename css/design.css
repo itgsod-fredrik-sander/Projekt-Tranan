@@ -1,3 +1,9 @@
 body {
 	background-color:black;
 }
+
+div#wrapper {
+	margin:0 auto;
+	width:1000px;
+	background-color:orange;
+}
