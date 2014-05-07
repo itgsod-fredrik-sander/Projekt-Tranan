@@ -24,9 +24,10 @@ div#topimage {
 
 div#navbar
 {
-	padding:0px;
+	width:60%;
 	margin:0px;
-	
+	height:35px;
+	background-color:black;
 }
 
 div#navbar li
@@ -39,14 +40,13 @@ div#navbar li
 div#navbar li a
 {
 	font-family:Arial;
-	font-size:12px;
+	font-size:17px;
 	text-decoration: none;
-	padding:10px;
+	padding:13px;
+	padding-left:5px;
+	padding-right:5px;
 	background-color:black;
 	color:#ffffff;
-	border-bottom:1px;
-	border-bottom-color:#000000;
-	border-bottom-style:solid;
 }
 
 div#navbar li a:hover
@@ -56,10 +56,4 @@ div#navbar li a:hover
 	border-bottom:2px;
 	border-bottom-color:#000000;
 	border-bottom-style:solid;
-	margin:-1px;
-}
-
-.center {
-	margin-left:auto;
-	margin-right:auto;
 }
