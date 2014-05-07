@@ -1,5 +1,7 @@
 * {
-	margin-top:0;
+	margin-top:0px;
+	padding:0px;
+	border:0px;
 }
 
 body {
@@ -17,11 +19,47 @@ div#topimage {
 	width:100%;
 	position:absolute;
 	z-index:-1;
-	margin-left:0;
+	left:0px;
 }
 
-div#navbar{
+div#navbar
+{
+	padding:0px;
+	margin:0px;
+	
+}
+
+div#navbar li
+{
+	display:inline;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+div#navbar li a
+{
+	font-family:Arial;
+	font-size:12px;
+	text-decoration: none;
+	padding:10px;
 	background-color:black;
-	height:50px;
+	color:#ffffff;
+	border-bottom:1px;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
 }
 
+div#navbar li a:hover
+{
+	background-color:#9B1C26;
+	padding-bottom:12px;
+	border-bottom:2px;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	margin:-1px;
+}
+
+.center {
+	margin-left:auto;
+	margin-right:auto;
+}
