@@ -14,7 +14,7 @@ div#wrapper {
 }
 
 div#topimage {
-	background-image:url('../images/edited-top.jpg');
+	background-image:url('../images/original-top.jpg');
 	height:250px;
 	width:100%;
 	position:absolute;
