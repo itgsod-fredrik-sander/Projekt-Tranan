@@ -4,6 +4,10 @@
 	border:0px;
 }
 
+.center {
+  margin: 0 auto;
+}
+
 body {
 	background-color:white;
 }
@@ -22,23 +26,20 @@ div#topimage {
 	left:0px;
 }
 
-div#navbar
-{
+div#navbar {
 	width:80%;
 	margin:0px;
 	height:35px;
 	background-color:black;
 }
 
-div#navbar li
-{
+div#navbar li {
 	display:inline;
 	margin-left:0px;
 	margin-right:0px;
 }
 
-div#navbar li a
-{
+div#navbar li a {
 	display:table-cell;
 	vertical-align:middle;
 	float:left;
@@ -53,8 +54,7 @@ div#navbar li a
 	color:#ffffff;
 }
 
-div#navbar li a:hover
-{
+div#navbar li a:hover {
 	background-color:#9B1C26;
 	padding-bottom:16px;
 	border-bottom:2px;
@@ -62,7 +62,8 @@ div#navbar li a:hover
 	border-bottom-style:solid;
 }
 
-div#body 
-{
-	
+div#body {
+	border-top:5px black;
+	width:80%;
+    background-color:black;	
 }
