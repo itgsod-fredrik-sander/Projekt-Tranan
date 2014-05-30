@@ -65,6 +65,7 @@ div#content {
 div#content .container {
   width:100%;
   background-color:red;
+  overflow:auto;
 }
 
 div#content .container img {
