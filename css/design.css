@@ -74,6 +74,7 @@ div#content .container img {
 
 div#content .container div {
 	float:left;
+	padding-top:35px;
 	width:33.33%;
 	background-color:white;
 }
