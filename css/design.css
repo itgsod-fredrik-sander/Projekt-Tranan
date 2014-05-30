@@ -53,13 +53,10 @@ div#navbar li a {
 
 div#navbar li:hover {
     background-color: #9B1C26;
-	border-bottom: 2px;
-	border-bottom-color: #000000;
-	border-bottom-style: solid;
 }
 
 div#content {
-	margin-top:250px;	
+	margin-top:234px;	
 	border-top:5px black;
 	width:80%;
     background-color:black;
