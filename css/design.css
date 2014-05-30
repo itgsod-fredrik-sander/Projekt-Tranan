@@ -37,7 +37,7 @@ div#navbar li {
 	margin-left:0px;
 	margin-right:0px;
 	text-align: center;
-	width: 19.7%;
+	width: 19.73%;
 }
 
 div#navbar li a {
@@ -58,6 +58,6 @@ div#navbar li:hover {
 div#content {
 	margin-top:197px;	
 	border-top:5px black;
-	width:80%;
+	width:90%;
     background-color:black;
 }
