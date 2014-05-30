@@ -39,6 +39,10 @@ div#navbar li
 
 div#navbar li a
 {
+	display:table-cell;
+	vertical-align:middle;
+	float:left;
+	width:18%;
 	font-family:Arial;
 	font-size:17px;
 	text-decoration: none;
