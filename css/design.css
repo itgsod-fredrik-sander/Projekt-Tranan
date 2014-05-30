@@ -62,7 +62,7 @@ div#content {
     background-color:blue;
 }
 
-div#content container {
+div#content .container {
   width:100%;
   background-color:black;
 }
