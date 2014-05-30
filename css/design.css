@@ -88,6 +88,8 @@ div#footer {
 
 div#footer div {
 	width:25%;
+	padding-top:30px;
+	padding-bottom:20px;
 	float:left;
 	text-align:center;
 }
