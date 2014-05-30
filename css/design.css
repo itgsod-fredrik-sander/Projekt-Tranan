@@ -21,7 +21,7 @@ div#topimage {
 	background-image:url('../images/original-top.jpg');
 	height:250px;
 	width:100%;
-	position:absolute;
+	position:absolute; 
 	z-index:-1;
 	left:0px;
 }
@@ -92,5 +92,9 @@ div#footer div {
 
 div#footer div h3 {
  	text-decoration:underline;
+}
+
+div#footer div p {
+	margin:0;
 }
 	
