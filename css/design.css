@@ -87,6 +87,7 @@ div#footer {
 div#footer div {
 	width:25%;
 	float:left;
+	text-align:center;
 }
 
 div#footer div h3 {
