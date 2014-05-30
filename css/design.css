@@ -67,7 +67,7 @@ div#content .container {
   background-color:black;
 }
 
-div#content .container .img {
-	
+div#content .container img {
+	border:1px solid black;
 }
 	
