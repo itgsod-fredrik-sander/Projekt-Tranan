@@ -24,7 +24,7 @@ div#topimage {
 
 div#navbar
 {
-	width:60%;
+	width:80%;
 	margin:0px;
 	height:35px;
 	background-color:black;
@@ -42,7 +42,7 @@ div#navbar li a
 	display:table-cell;
 	vertical-align:middle;
 	float:left;
-	width:18%;
+	width:18.5%;
 	font-family:Arial;
 	font-size:17px;
 	text-decoration: none;
