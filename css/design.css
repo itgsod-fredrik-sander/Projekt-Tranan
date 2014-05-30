@@ -29,41 +29,38 @@ div#topimage {
 div#navbar {
 	width:80%;
 	margin:0px;
-	height:35px;
 	background-color:black;
 }
 
 div#navbar li {
-	display:inline;
+	display: inline-block;
 	margin-left:0px;
 	margin-right:0px;
+	text-align: center;
+	width: 19.7%;
 }
 
 div#navbar li a {
-	display:table-cell;
-	vertical-align:middle;
-	float:left;
-	width:18.5%;
+	display: inline-block;
 	font-family:Arial;
 	font-size:17px;
 	text-decoration: none;
 	padding:16px;
 	padding-left:5px;
 	padding-right:5px;
-	background-color:black;
 	color:#ffffff;
 }
 
-div#navbar li a:hover {
-	background-color:#9B1C26;
-	padding-bottom:16px;
-	border-bottom:2px;
-	border-bottom-color:#000000;
-	border-bottom-style:solid;
+div#navbar li:hover {
+    background-color: #9B1C26;
+	border-bottom: 2px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
 }
 
 div#body {
 	border-top:5px black;
 	width:80%;
-    background-color:black;	
+    background-color:black;
+    margin-top:50px;	
 }
