@@ -88,4 +88,8 @@ div#footer div {
 	width:25%;
 	float:left;
 }
+
+div#footer div h3 {
+ 	text-decoration:underline;
+}
 	
