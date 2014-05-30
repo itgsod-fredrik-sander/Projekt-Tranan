@@ -59,8 +59,8 @@ div#navbar li:hover {
 }
 
 div#content {
+	margin-top:250px;	
 	border-top:5px black;
 	width:80%;
     background-color:black;
-    margin-top:50px;	
 }
