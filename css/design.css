@@ -81,6 +81,7 @@ div#content .container div {
 div#footer {
 	width:90%;
 	background-color:orange;
+	overflow:auto;
 }
 
 div#footer div {
