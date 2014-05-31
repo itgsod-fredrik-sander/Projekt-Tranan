@@ -69,6 +69,7 @@ div#content .container {
 }
 
 div#content .container img {
+	float:left;
 	border:1px solid black;
 }
 
