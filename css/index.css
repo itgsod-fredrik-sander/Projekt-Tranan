@@ -24,6 +24,7 @@ div#topimage {
 	position:absolute; 
 	z-index:-1;
 	left:0px;
+    box-shadow: 0px 3px 6px black;
 }
 
 div#navbar {
