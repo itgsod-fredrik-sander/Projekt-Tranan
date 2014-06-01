@@ -62,12 +62,10 @@ div#content {
 	margin-top:197px;	
 	border-top:5px black;
 	width:90%;
-    background-color:blue;
 }
 
 div#content .container {
   width:100%;
-  background-color:red;
   overflow:auto;
 }
 
