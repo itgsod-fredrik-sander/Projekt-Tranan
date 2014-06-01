@@ -62,7 +62,7 @@ div#content {
 	margin-top:210px;	
 	border-top:5px black;
 	width:90%;
-    box-shadow: 5px 0 5px -5px black;
+    box-shadow: 5px 0 5px -5px black, -5px 0 5px -5px black;
 }
 
 div#content .container {
