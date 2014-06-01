@@ -53,6 +53,8 @@ div#navbar li a {
 
 div#navbar li:hover {
     background-color: #9B1C26;
+    transition-duration:0.6s;
+    transition-delay:0.1s;
 }
 
 div#content {
