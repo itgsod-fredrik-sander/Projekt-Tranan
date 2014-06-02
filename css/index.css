@@ -72,6 +72,9 @@ div#content .container {
 
 div#content .container img {
 	border:1px solid black;
+    /* Fix centering issue */
+    display:block;
+    margin:0px auto;
 }
 
 div#content .container div {
