@@ -94,6 +94,7 @@ div#content .container .star {
 	height:31px;
 	background-image:url("../images/star.png");
 	border:0;
+	float:left;
 }
 
 div#footer {
