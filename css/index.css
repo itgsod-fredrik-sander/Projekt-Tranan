@@ -89,6 +89,12 @@ div#content .container div p {
 	padding-right:5%;
 }
 
+div#content .container .star {
+	width:55px;
+	height:49px;
+	background-image:url("../images/star.png");
+}
+
 div#footer {
 	width:90%;
 	background-color:black;
