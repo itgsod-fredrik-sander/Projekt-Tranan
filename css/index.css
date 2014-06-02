@@ -84,6 +84,11 @@ div#content .container div {
 	background-color:white;
 }
 
+div#content .container div p {
+	padding-left:5%;
+	padding-right:5%;
+}
+
 div#footer {
 	width:90%;
 	background-color:black;
