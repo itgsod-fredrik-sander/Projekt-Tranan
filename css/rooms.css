@@ -8,3 +8,7 @@ div#preview {
 div#roomselector {
     text-align:center;
 }
+
+.thumbnail {
+    border:1px solid black;
+}
