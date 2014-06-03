@@ -1,11 +1,13 @@
 div#preview {
-    width:55%;
+    width:53%;
     float:left;
     text-align:center;
     padding-right:5%;
 }
 
 div#roomselector {
+    float:left;
+    width:40%;
     text-align:center;
 }
 
@@ -15,7 +17,7 @@ div#roomselector h2 {
 }
 
 div#book {
-    width:100%;
+    width: 85%;
     height:50px;
     background-color:#9B1C26;
     border:1px solid black;
