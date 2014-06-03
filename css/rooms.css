@@ -26,6 +26,11 @@ div#book {
     border:1px solid black;
 }
 
-.icon {
+.container {
+  width:100%;
+  overflow:auto;
+}
+
+.container div {
     width:25%;
 }
