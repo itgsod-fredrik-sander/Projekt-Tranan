@@ -36,23 +36,3 @@
 	border:0;
 	display:inline-block;
 }
-
-div#footer {
-	width:90%;
-	background-color:black;
-	color:white;
-	overflow:auto;
-}
-
-div#footer div {
-	width:25%;
-	padding-top:10px;
-	padding-bottom:10px;
-	float:left;
-	text-align:center;
-}
-
-div#footer div h3 {
- 	text-decoration:underline;
-}
-	
