@@ -6,6 +6,7 @@ div#attractions-information {
 
 div#attractions-information h1 {
     text-decoration:underline;
+    padding-bottom:10px;
 }
 
 div#attractions-selector {
