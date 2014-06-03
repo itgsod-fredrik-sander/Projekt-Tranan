@@ -61,12 +61,12 @@ div#navbar li:hover {
 div#content {
 	margin-top:210px;	
 	border-top:5px black;
-	width:90%;
+	width:100%;
     box-shadow: 5px 0 5px -5px black, -5px 0 5px -5px black;
 }
 
 div#footer {
-	width:90%;
+	width:100%;
 	background-color:black;
 	color:white;
 	overflow:auto;
