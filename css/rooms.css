@@ -25,3 +25,7 @@ div#book {
 .thumbnail {
     border:1px solid black;
 }
+
+.icon {
+    width:25%;
+}
