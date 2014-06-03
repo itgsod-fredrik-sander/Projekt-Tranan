@@ -1,6 +1,6 @@
 div#attractions-information {
     float:left;
-    width:53%;
+    width:65%;
     padding-left:2%;
 }
 
@@ -11,12 +11,12 @@ div#attractions-information h1 {
 
 div#attractions-selector {
     float:left;
-    width:45%;
+    width:30%;
 }
 
 div#experience {
     margin-top:46px;
-    margin-left:15%;
+    margin-left:10%;
     margin-right:2%;
     border:1px solid black;
 }
@@ -26,7 +26,7 @@ div#experience h2 {
 }
 
 div#experience ul {
-    padding-left:7%;
+    padding-left:20%;
 }
 
 div#experience ul li {
