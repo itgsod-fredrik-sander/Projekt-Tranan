@@ -19,3 +19,7 @@ div#experience {
     margin-left:15%;
     border:1px solid black;
 }
+
+div#experience h2 {
+    text-align:center;
+}
