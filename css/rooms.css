@@ -10,7 +10,14 @@ div#roomselector {
 }
 
 div#roomselector h2 {
-    padding-bottom:10px;
+    padding-top:20px;
+    padding-bottom:31px;
+}
+
+div#book {
+    width:100%;
+    background-color:#9B1C26;
+    border:1px solid black;
 }
 
 .thumbnail {
