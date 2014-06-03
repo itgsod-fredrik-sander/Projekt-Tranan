@@ -22,10 +22,12 @@ div#roomselector h2 {
 }
 
 div#book {
-    width: 85%;
     height:50px;
     background-color:#9B1C26;
     border:1px solid black;
+    display:table-cell;
+    vertical-align:middle;
+    width: 85%;
 }
 
 .thumbnail {
