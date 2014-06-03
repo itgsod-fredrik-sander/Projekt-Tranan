@@ -1,0 +1,11 @@
+div#attractions-information {
+    float:left;
+    width:55%;
+    background-color:red;
+}
+
+div#attractions-selector {
+    float:left;
+    width:45%;
+    background-color:blue;
+}
