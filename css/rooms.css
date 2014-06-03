@@ -9,6 +9,10 @@ div#roomselector {
     text-align:center;
 }
 
+div#roomselector h2 {
+    padding-bottom:10px;
+}
+
 .thumbnail {
     border:1px solid black;
 }
