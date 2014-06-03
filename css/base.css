@@ -70,6 +70,7 @@ div#footer {
 	background-color:#171717;
 	color:white;
 	overflow:auto;
+    margin-top:50px;
 }
 
 div#footer div {
