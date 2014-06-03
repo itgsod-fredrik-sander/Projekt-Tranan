@@ -42,5 +42,10 @@ div#experience ul li {
 .container div {
 	float:left;
 	padding-top:35px;
-	width:33.33%;
+    padding-left:2%;
+	width:31.33%;
+}
+
+.container div img {
+    border:1px solid black;
 }
