@@ -100,9 +100,6 @@ div#content {
 }
 
 .container .star {
-	width:35px;
-	height:31px;
-	background-image:url("../images/star.png");
 	border:0;
 	display:inline-block;
 }
