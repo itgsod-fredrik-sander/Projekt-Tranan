@@ -32,3 +32,14 @@ div#experience ul li {
     padding-top:11px;
     padding-bottom:11px;
 }
+
+.container {
+  width:100%;
+  overflow:auto;
+}
+
+.container div {
+	float:left;
+	padding-top:35px;
+	width:33.33%;
+}
