@@ -89,6 +89,10 @@ div#content .container div p {
 	padding-right:5%;
 }
 
+div#content .container .review {
+    text-align:center;
+}
+
 div#content .container .star {
 	width:35px;
 	height:31px;
