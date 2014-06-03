@@ -71,17 +71,19 @@ div#footer {
 	color:white;
 	overflow:auto;
     margin-top:50px;
+    text-align:center;
 }
 
 div#footer div {
 	width:12.5%;
 	padding-top:10px;
 	padding-bottom:10px;
-	float:left;
 	text-align:center;
+    display: inline-block;
 }
 
 div#footer div h3 {
  	text-decoration:underline;
 }
+
 	
