@@ -13,3 +13,9 @@ div#attractions-selector {
     float:left;
     width:45%;
 }
+
+div#experience {
+    margin-top:46px;
+    margin-left:15%;
+    background-color:orange;
+}
