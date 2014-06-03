@@ -6,6 +6,10 @@ div#preview {
     padding-left:1%;
 }
 
+div#preview image {
+    border:1px solid black;
+}
+
 div#roomselector {
     float:left;
     width:40%;
