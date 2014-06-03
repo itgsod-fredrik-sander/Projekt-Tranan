@@ -65,7 +65,7 @@ div#content {
     box-shadow: 5px 0 5px -5px black, -5px 0 5px -5px black;
 }
 
-div#content .container {
+.container {
   width:100%;
   overflow:auto;
 }
