@@ -70,30 +70,30 @@ div#content .container {
   overflow:auto;
 }
 
-div#content .container img {
+.container img {
 	border:1px solid black;
     /* Fix centering issue */
     display:block;
     margin:0px auto;
 }
 
-div#content .container div {
+.container div {
 	float:left;
 	padding-top:35px;
 	width:33.33%;
 	background-color:white;
 }
 
-div#content .container div p {
+.container div p {
 	padding-left:5%;
 	padding-right:5%;
 }
 
-div#content .container .review {
+.container .review {
     text-align:center;
 }
 
-div#content .container .star {
+.container .star {
 	width:35px;
 	height:31px;
 	background-image:url("../images/star.png");
