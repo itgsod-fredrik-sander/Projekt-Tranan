@@ -27,3 +27,8 @@ div#experience h2 {
 div#experience ul {
     padding-left:7%;
 }
+
+div#experience ul li {
+    padding-top:11px;
+    padding-bottom:11px;
+}
