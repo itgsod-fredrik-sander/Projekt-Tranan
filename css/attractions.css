@@ -1,12 +1,14 @@
 div#attractions-information {
     float:left;
     width:53%;
-    background-color:red;
     padding-left:2%;
+}
+
+div#attractions-information h1 {
+    text-decoration:underline;
 }
 
 div#attractions-selector {
     float:left;
     width:45%;
-    background-color:blue;
 }
