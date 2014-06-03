@@ -25,7 +25,8 @@ div#book {
     width: 76%;
     height:50px;
     background-color:#9B1C26;
-    border:1px solid black; 
+    border:1px solid black;
+    line-height:50px;
 }
 
 .thumbnail {
