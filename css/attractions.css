@@ -23,3 +23,7 @@ div#experience {
 div#experience h2 {
     text-align:center;
 }
+
+div#experience ul {
+    padding-left:7%;
+}
