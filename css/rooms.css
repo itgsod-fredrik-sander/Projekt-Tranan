@@ -38,3 +38,7 @@ div#book {
     float:left;
     text-align:center;
 }
+
+.container div img {
+    padding-bottom:10px;
+}
