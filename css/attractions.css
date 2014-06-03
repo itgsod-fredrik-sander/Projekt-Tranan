@@ -50,3 +50,7 @@ div#experience ul li {
 .container div img {
     border:1px solid black;
 }
+
+div#availability {
+    background-color:black;
+}
