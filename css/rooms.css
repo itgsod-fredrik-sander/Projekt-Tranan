@@ -33,4 +33,6 @@ div#book {
 
 .container div {
     width:25%;
+    float:left;
+    background-color:red;
 }
