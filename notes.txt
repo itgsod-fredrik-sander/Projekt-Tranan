@@ -1,3 +1,4 @@
 # Change font to a more clean and professional looking one
 # Change text color to a lighter grey for a more professional look
+# Overlook padding index.html
 # Add and make a image with layermasks etc.
