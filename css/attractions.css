@@ -43,7 +43,7 @@ div#experience ul li {
 	float:left;
 	padding-top:35px;
     padding-left:2%;
-	width:31.33%;
+	width:25%;
     margin-right:2%;
 }
 
@@ -53,4 +53,5 @@ div#experience ul li {
 
 div#availability {
     background-color:black;
+	margin-top:35px;
 }
