@@ -52,6 +52,7 @@ div#experience ul li {
 }
 
 div#availability {
+	height:68px;
     background-color:black;
 	margin-top:35px;
 	margin-left:3.8%;
