@@ -36,6 +36,10 @@
 	font-family:cursive;
 }
 
+.grey {
+	color:#666;
+}
+
 .container .star {
 	border:0;
 	display:inline-block;
