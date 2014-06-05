@@ -32,6 +32,10 @@
     padding-bottom:20px;
 }
 
+.text-cursive {
+	font-family:cursive;
+}
+
 .container .star {
 	border:0;
 	display:inline-block;
