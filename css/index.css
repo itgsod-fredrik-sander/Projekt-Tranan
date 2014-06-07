@@ -58,7 +58,7 @@ div#content > h2 {
 }
 
 .rooms {
-	background-position: 0 -204px !important; /* Sets the source of the spritesheet's x,y coordinates relative to top left corner. */
+	background-position: 0 -204px !important; /* Sets the source of the spritesheet's x,y coordinates relative to top left corner and overwrites existing rule. */
 }
 
 .travel {
