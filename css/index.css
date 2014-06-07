@@ -69,6 +69,10 @@ div#content > h2 {
 	background-position:0 -102px !important;
 }
 
+/* Since star's image is of the type png it will not be in the jpg spritesheet */
+/* We are here overwriting the previous background source, width and height for images within container*/
 .star {
-	
+	background: url(../images/star.png) no-repeat;
+	width:35px;
+	height:31px;
 }
