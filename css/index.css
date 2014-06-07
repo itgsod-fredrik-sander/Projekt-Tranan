@@ -50,7 +50,7 @@ div#content > h2 {
 }
 
 /* Loads the spritesheet for all images in index.html's container */
-.container img {
+#thumbnails img {
 	background: url(../images/spritesheet-index.jpg) no-repeat;
 	/* Assigning default width and height for our images */
 	width:270px;
@@ -67,12 +67,4 @@ div#content > h2 {
 
 .restaurant {
 	background-position:0 -102px !important;
-}
-
-/* Since star's image is of the type png it will not be in the jpg spritesheet */
-/* We are here overwriting the previous background source, width and height for images within container*/
-.star {
-	background: url(../images/star.png) no-repeat;
-	width:35px;
-	height:31px;
 }
