@@ -21,6 +21,13 @@ div#roomselector h2 {
     padding-bottom:31px;
 }
 
+/* Loads the spritesheet for all images in rooms.html's roomselector */
+div#roomselector img {
+	background: url(../images/spritesheet-rooms-thumbnails.jpg) no-repeat;
+	width:150px;
+	height:75px;
+}
+
 div#book {
     width: 76%;
     height:50px;
