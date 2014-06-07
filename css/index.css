@@ -49,7 +49,7 @@ div#content > h2 {
 	padding-top:40px;
 }
 
-/* Loads the spritesheet for all images in index.html */
+/* Loads the spritesheet for all images in index.html's container */
 .container img {
 	background: url(../images/spritesheet-index.jpg) no-repeat;
 	/* Assigning default width and height for our images */
