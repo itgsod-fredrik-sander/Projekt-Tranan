@@ -48,3 +48,27 @@
 div#content > h2 {
 	padding-top:40px;
 }
+
+/* Loads the spritesheet for all images in index.html */
+.container img {
+	background: url(../images/spritesheet-index.jpg) no-repeat;
+	/* Assigning default width and height for our images */
+	width:270px;
+	height:100px;
+}
+
+.rooms {
+	background-position: 0 -204px !important; /* Sets the source of the spritesheet's x,y coordinates relative to top left corner. */
+}
+
+.travel {
+	background-position:0 -306px !important;
+}
+
+.restaurant {
+	background-position:0 -102px !important;
+}
+
+.star {
+	
+}
