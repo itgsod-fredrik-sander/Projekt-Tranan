@@ -29,7 +29,7 @@ div#roomselector img {
 }
 
 .room1 {
-
+	background-position: -154px -2px !important; /* Sets the source of the spritesheet's x,y coordinates relative to top left corner and overwrites existing rule. */
 }
 
 .room2 {
