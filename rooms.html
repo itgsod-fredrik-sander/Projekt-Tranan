@@ -16,16 +16,16 @@
 			
 			function verifyBooking() {
 				if (room != 1) {
-					return true;
+					return true; /* If the user had selected any but the first room, we return that the booking was succesful*/
 				} else {
-					return false;
+					return false; /* If the user had selected the first room, we return that the booking was unsuccesful*/
 				}
 			}
 			
 			function book() {
-				var succesful = verifyBooking(); 
+				var succesful = verifyBooking();  /* We assign the variable succesful the returnvalue of the function call of verifyBooking */
 				if (succesful) {
-					alert("You have succesfully booked your hotel room!");
+					alert("You have succesfully booked your hotel room!"); /* Alert the user with an annoying popup that the booking was succesful */
 				} else {
 					alert("The hotel room is not available!");
 				}
