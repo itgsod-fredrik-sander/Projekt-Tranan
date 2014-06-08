@@ -60,6 +60,31 @@ div#roomselector img {
 	background-position: -2px -2px !important;
 }
 
+.container img {
+	background: url(../images/spritesheet-rooms-icons.png) no-repeat;
+	height:50px;
+}
+
+.wifi {
+	width:64px;
+	background-position: -2px -2px !important;
+}
+
+.flatscreen {
+	width:62px;
+	background-position:-68px -2px !important;
+}
+
+.serving {
+	width:56px;
+	background-position: -132px -3px !important;
+}
+
+.restaurant {
+	width:49px;
+	background-position: -190px -2px !important;
+}
+
 div#book {
     width: 76%;
     height:50px;
