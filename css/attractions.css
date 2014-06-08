@@ -29,6 +29,7 @@ div#experience h2 {
 
 div#experience ul {
     padding-left:20%;
+	list-style-type:none;
 }
 
 div#experience ul li {
