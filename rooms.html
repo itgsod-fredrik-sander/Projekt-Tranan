@@ -6,6 +6,8 @@
 		<link rel="stylesheet" type="text/css" href="css/rooms.css"> 
 		<title>Hotel Tranan</title>
 		<script>
+			var room = 0; /* Declares and initializes the variable which will keep track of the room the user has selected */
+			
 			function setBackgroundPosition(x, y) {
 				document.getElementById("preview").style.cssText = "background-position: " + x + "px " + y + "px;" /* Assign the element with ID 'preview' CSS background-position, we do this to set the rectangular source from our spritesheet. X and Y are passed in as arguments into the function.*/
 				console.log('clicked') /* Here we log that the user in fact have clicked on the element with ID 'preview'*/
