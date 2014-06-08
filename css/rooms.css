@@ -13,6 +13,10 @@ div#preview {
 	margin-bottom:75px;
 }
 
+div#preview p {
+	margin-top:440px;
+}
+
 div#preview image {
     border:1px solid black;
 }
