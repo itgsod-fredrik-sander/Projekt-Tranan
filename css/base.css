@@ -9,6 +9,10 @@
 	src:url(luxury.otf); /* Points to source of font*/
 }
 
+.luxury {
+	font-family:luxury;
+}
+
 .center {
   margin: 0 auto;
 }
