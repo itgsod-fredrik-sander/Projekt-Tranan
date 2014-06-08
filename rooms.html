@@ -23,8 +23,12 @@
 			}
 			
 			function book() {
-				var succesful = verifyBooking();
-				
+				var succesful = verifyBooking(); 
+				if (succesful) {
+					alert("You have succesfully booked your hotel room!");
+				} else {
+					alert("The hotel room is not available!");
+				}
 			}
 		</script>
 	</head>
