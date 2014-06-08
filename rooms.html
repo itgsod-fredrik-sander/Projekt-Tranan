@@ -10,7 +10,7 @@
 			
 			function setBackgroundPosition(x, y, nr) {
 				document.getElementById("preview").style.cssText = "background-position: " + x + "px " + y + "px;" /* Assign the element with ID 'preview' CSS background-position, we do this to set the rectangular source from our spritesheet. X and Y are passed in as arguments into the function.*/
-				room = nr;
+				room = nr; /* Pointing variable 'room' to the memory adress of our argument 'nr' */
 				console.log('clicked') /* Here we log that the user in fact have clicked on the element with ID 'preview'*/
 			};
 		</script>
@@ -35,14 +35,14 @@
                 </div>
                 <div id="roomselector">
                     <h2>Rooms</h2>
-                    <img class="thumbnail room1" onclick="setBackgroundPosition(-2, -2)"/>
-                    <img class="thumbnail room2" onclick="setBackgroundPosition(-554, -2)"/>
-                    <img class="thumbnail room3" onclick="setBackgroundPosition(-2, -444)">
-                    <img class="thumbnail room4" onclick="setBackgroundPosition(-554, -886)"/>
-                    <img class="thumbnail room5" onclick="setBackgroundPosition(-554, -444)"/>
-                    <img class="thumbnail room6" onclick="setBackgroundPosition(-2, -1328)"/>
-                    <img class="thumbnail room7" onclick="setBackgroundPosition(-2, -886)"/>
-                    <img class="thumbnail room8" onclick="setBackgroundPosition(-554, -1328)"/>
+                    <img class="thumbnail room1" onclick="setBackgroundPosition(-2, -2, 1)"/>
+                    <img class="thumbnail room2" onclick="setBackgroundPosition(-554, -2, 2)"/>
+                    <img class="thumbnail room3" onclick="setBackgroundPosition(-2, -444, 3)">
+                    <img class="thumbnail room4" onclick="setBackgroundPosition(-554, -886, 4)"/>
+                    <img class="thumbnail room5" onclick="setBackgroundPosition(-554, -444, 5)"/>
+                    <img class="thumbnail room6" onclick="setBackgroundPosition(-2, -1328, 6)"/>
+                    <img class="thumbnail room7" onclick="setBackgroundPosition(-2, -886, 7)"/>
+                    <img class="thumbnail room8" onclick="setBackgroundPosition(-554, -1328, 8)"/>
                     <div id="book">
                         <p>Book Now!</p>
                     </div>
