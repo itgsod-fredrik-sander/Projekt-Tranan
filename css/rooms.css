@@ -33,31 +33,31 @@ div#roomselector img {
 }
 
 .room2 {
-	
+	background-position: -306px -2px !important;
 }
 
 .room3 {
-
+	background-position: -2px -79px !important;
 }
 
 .room4 {
-
+	background-position: -2px -156px !important;
 }
 
 .room5 {
-
+	background-position:  -154px -79px !important;
 }
 
 .room6 {
-
+	background-position: -154px -156px !important;
 }
 
 .room7 {
-
+	background-position: -306px -79px !important;
 }
 
 .room8 {
-
+	background-position: -2px -2px !important;
 }
 
 div#book {
