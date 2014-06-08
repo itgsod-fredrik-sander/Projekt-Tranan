@@ -7,7 +7,8 @@
 		<title>Hotel Tranan</title>
 		<script>
 			function setBackgroundPosition() {
-				document.getElementById("previewimage").style.cssText = ''
+				document.getElementById("previewimage").style.cssText = ""
+				console.log('clicked')
 			}
 		</script>
 	</head>
@@ -31,7 +32,7 @@
                 </div>
                 <div id="roomselector">
                     <h2>Rooms</h2>
-                    <img class="thumbnail room1"/>
+                    <img class="thumbnail room1" onclick="setBackgroundPosition()"/>
                     <img class="thumbnail room2"/>
                     <img class="thumbnail room3">
                     <img class="thumbnail room4"/>
