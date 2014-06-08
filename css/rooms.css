@@ -4,6 +4,7 @@ div#preview {
     text-align:center;
     padding-right:5%;
     padding-left:1%;
+	min-width:450px;
 }
 
 div#preview image {
