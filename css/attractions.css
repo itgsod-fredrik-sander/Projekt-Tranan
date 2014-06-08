@@ -48,6 +48,7 @@ div#experience ul li {
 	width:29%;
     margin-right:2%;
 	text-align:center;
+	min-width:250px;
 }
 
 .container div img {
@@ -73,4 +74,5 @@ div#availability {
 	margin-left:3.8%;
 	width:25%;
 	line-height:32px;
+	min-width:100px;
 }
