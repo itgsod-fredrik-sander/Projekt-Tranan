@@ -8,10 +8,15 @@
 		<script>
 			var room = 1; /* Declares and initializes the variable which will keep track of the room the user has selected */
 			
-			function onThumbnailClick(id, x, y, nr, color) {
+			function onThumbnailClick(id, x, y, nr) {
 				room = nr; /* Pointing variable 'room' to the memory adress of our argument 'nr' */
 				setBackgroundPosition(id, x, y, nr);
-				setBackgroundColor(id, color);
+				
+				if (room != 1) {
+					setBackgroundColor(id, "green");
+				} else {
+					setBackgroundColor(id, "#9B1C26");
+				}
 			}
 			
 			function setBackgroundPosition(id, x, y) {
