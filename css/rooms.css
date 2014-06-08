@@ -5,6 +5,8 @@ div#preview {
     padding-right:5%;
     padding-left:1%;
 	min-width:450px;
+	background: url(../images/spritesheet-rooms-original.jpg) no-repeat;
+	height:440px;
 }
 
 div#preview image {
