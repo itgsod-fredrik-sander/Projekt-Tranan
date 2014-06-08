@@ -5,8 +5,8 @@
 }
 
 @font-face {
-	font-family: luxury;
-	src:url(luxury.otf);
+	font-family: luxury; /*Sets name of font*/
+	src:url(luxury.otf); /* Points to source of font*/
 }
 
 .center {
@@ -50,7 +50,7 @@ div#navbar li {
 
 div#navbar li a {
 	display: inline-block;
-	font-family:Arial;
+	font-family:luxury;
 	font-size:17px;
 	text-decoration: none;
 	padding:16px;
