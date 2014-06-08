@@ -9,13 +9,13 @@
 			var room = 1; /* Declares and initializes the variable which will keep track of the room the user has selected */
 			
 			function onThumbnailClick(id, x, y, nr, color) {
+				room = nr; /* Pointing variable 'room' to the memory adress of our argument 'nr' */
 				setBackgroundPosition(id, x, y, nr);
 				setBackgroundColor(id, color);
 			}
 			
 			function setBackgroundPosition(id, x, y) {
 				document.getElementById(id).style.cssText = "background-position: " + x + "px " + y + "px;" /* Assign the element with ID 'preview' CSS background-position, we do this to set the rectangular source from our spritesheet. X and Y are passed in as arguments into the function.*/
-				room = nr; /* Pointing variable 'room' to the memory adress of our argument 'nr' */
 				console.log('clicked') /* Here we log that the user in fact have clicked on the element with ID 'preview'*/
 			};
 			
