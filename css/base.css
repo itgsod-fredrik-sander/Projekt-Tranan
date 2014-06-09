@@ -50,10 +50,11 @@ div#navbar li {
 	text-align: center;
 	width: 19.73%;
 	min-width:150px;
+	max-width:196.8px;
 }
 
 div#navbar li a {
-	display: inline-block;
+	display: block;
 	font-family:luxury;
 	font-size:17px;
 	text-decoration: none;
