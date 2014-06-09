@@ -14,8 +14,10 @@
 				
 				if (room != 1) {
 					setBackgroundColor("book", "green"); /* Sets the background-color of the element with ID book to green */
+					document.getElementById("book").innerHTML = "Book now!"; /* Sets the innerHTML of the element with ID book to "Book now!"*/
 				} else {
 					setBackgroundColor("book", "#9B1C26"); /* Sets the background-color of the element with ID book to red */
+					document.getElementById("book").innerHTML = "Not Available!";
 				}
 				
 				console.log('clicked') /* Here we log that the user in fact have clicked on the element with ID 'preview'*/
@@ -26,7 +28,7 @@
 			};
 			
 			function setBackgroundColor(id, color) {
-				document.getElementById(id).style.cssText = "background-color:" + color + ";" /* Sets the background color of selected element to the specified color*/
+				document.getElementById(id).style.cssText += "background-color:" + color + ";" /* Sets the background color of selected element to the specified color*/
 			};
 			
 			function verifyBooking() {
@@ -76,7 +78,7 @@
                     <img class="thumbnail room7" onclick="onThumbnailClick('preview',-2, -886, 7)"/>
                     <img class="thumbnail room8" onclick="onThumbnailClick('preview',-554, -1328, 8)"/>
                     <div id="book" onclick="book()">
-                        <p class="luxury">Book Now!</p>
+                        <p class="luxury" id="bookparagraph">Book Now!</p>
                     </div>
                 </div>
                 <div class="container">
