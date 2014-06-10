@@ -1,21 +1,21 @@
-div#attractions-information {
+#attractions-information {
     float:left;
     width:65%;
     padding-left:2%;
 	min-width:350px;
 }
 
-div#attractions-information h1 {
+#attractions-information h1 {
     text-decoration:underline;
     padding-bottom:10px;
 }
 
-div#attractions-selector {
+#attractions-selector {
     float:left;
     width:30%;
 }
 
-div#experience {
+#experience {
     margin-top:46px;
     margin-left:10%;
     margin-right:2%;
@@ -23,16 +23,16 @@ div#experience {
 	min-width:250px;
 }
 
-div#experience h2 {
+#experience h2 {
     text-align:center;
 }
 
-div#experience ul {
+#experience ul {
     padding-left:20%;
 	list-style-type:none;
 }
 
-div#experience ul li {
+#experience ul li {
     padding-top:11px;
     padding-bottom:11px;
 }
@@ -67,7 +67,7 @@ div#experience ul li {
 	background-position: -304px -2px !important;  
 }
 
-div#availability {
+#availability {
 	height:68px;
     background-color:#9B1C26;
 	color:white;
