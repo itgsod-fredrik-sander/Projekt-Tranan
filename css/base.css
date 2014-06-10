@@ -21,6 +21,10 @@ body {
 	background-color:white;
 }
 
+.border-black {
+	border:1px solid black;
+}
+
 #wrapper {
 	margin:0 auto;
 	width:90%;
