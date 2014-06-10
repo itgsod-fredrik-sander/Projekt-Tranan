@@ -1,44 +1,43 @@
 * {
-	margin:0 auto;
+	margin:0 auto; /* Centers everything horizontally by default*/
 	padding:0px;
 	border:0px;
 }
 
-@font-face {
+@font-face { /* Loads our custom font */
 	font-family: luxury; /*Sets name of font*/
 	src:url(luxury.otf); /* Points to source of font*/
 }
 
-.luxury {
+.luxury { /* Class which changes the font to luxury */
 	font-family:luxury;
 }
 
-.center {
+.center { /* Class which centers the element within parent */
   margin: 0 auto;
 }
 
-body {
+body { 
 	background-color:white;
 }
 
-.border-black {
+.border-black { /* Class which creates a black border around element */
 	border:1px solid black;
 }
 
 #wrapper {
 	margin:0 auto;
-	width:90%;
-	max-width:1000px;
+	width:90%; /* Sets width to 90% of parent (in this case body) */
+	max-width:1000px; /* Sets the maximum width the element with id wrapper can take to 1000px*/
 }
 
 #topimage {
-	background-image:url('../images/edited-top.jpg');
-	height:250px;
-	width:100%;
-	position:absolute; 
-	z-index:-1;
-	left:0px;
-    box-shadow: 0px 3px 6px black;
+	background-image:url('../images/edited-top.jpg'); /* Sets the source of our top image*/
+	height:250px; /* Sets the height of the element*/
+	width:100%; /* Sets the width to 100% of its parent */
+	position:absolute; /* Sets the element positioned to the first parent elment which has a position other than static */
+	z-index:-1; /* Changes the z-index of the element. All elements, have by default, a z-index of 0. z-index represents the order of which elements are displayed. In this specific case, we do this to make the image go behind the navbar*/
+    box-shadow: 0px 3px 6px black; /* Creates a shadow underneath the topimage*/
 }
 
 #navbar {
@@ -48,37 +47,37 @@ body {
 }
 
 #navbar li {
-	display: inline-block;
+	display: inline-block;  /* Displays the element as an inline-block to tolerate other elements from aligning next to it */
 	margin-left:0px;
 	margin-right:0px;
 	text-align: center;
 	width: 24.665%;
-	min-width:178px;
-	max-width:247.5px;
+	min-width:178px; /* Sets the minimum width the element can take */
+	max-width:247.5px; /* Sets the maximum width the element can take*/
 }
 
 #navbar li a {
-	display: block;
-	font-family:luxury;
-	font-size:17px;
-	text-decoration: none;
+	display: block; 
+	font-family:luxury; /* Sets our font to our pre-loaded CSS3 font Luxury */
+	font-size:17px; /* Sets the size of our font */
+	text-decoration: none; /* Removes all text decoration (underlines etc.)*/
 	padding:16px;
 	padding-left:5px;
 	padding-right:5px;
-	color:#ffffff;
+	color:#ffffff;  /* Sets the text color */
 }
 
 #navbar li:hover {
-    background-color: #9B1C26;
-    transition-duration:0.6s;
-    transition-delay:0.1s;
+    background-color: #9B1C26; /* Sets our background-color to #9B1C26 (a red color) when hovering */
+    transition-duration:0.6s; /* Sets the time it takes for the CSS transition to take effect */
+    transition-delay:0.1s; /* Sets the time in seconds that it takes for the transition to start */
 }
 
 #content {
-	margin-top:210px;	
-	border-top:5px black;
+	margin-top:210px;	/* Sets the margin to the nearest element above */
+	border-top:5px black; 
 	width:100%;
-    box-shadow: 5px 0 5px -5px black, -5px 0 5px -5px black;
+    box-shadow: 5px 0 5px -5px black, -5px 0 5px -5px black; /* Creates two black shadows around the content box on both left and right side */
 }
 
 #footer {
