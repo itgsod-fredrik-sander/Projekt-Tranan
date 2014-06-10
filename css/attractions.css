@@ -6,19 +6,19 @@
 
 
 #attractions-information {
-    float:left;
+    float:left; /* Floats the element to the let */
     width:65%;
     padding-left:2%;
 	min-width:350px;
 }
 
 #attractions-information h1 {
-    text-decoration:underline;
+    text-decoration:underline; /* Sets the text decoration to underline. Telling us that all text within this element will have its characters underlined */
     padding-bottom:10px;
 }
 
 #attractions-selector {
-    float:left;
+    float:left; /* Floats the elemnet ot the left*/
     width:30%;
 }
 
@@ -59,17 +59,17 @@
 }
 
 .container div img {
-	background: url(../images/spritesheet-attractions.jpg) no-repeat;
-	width:300px;
-	height:100px;
+	background: url(../images/spritesheet-attractions.jpg) no-repeat; /* Loads spritesheet and make it not repeat itself if the element would be bigger than the image*/
+	width:300px; /* Sets the images width */
+	height:100px; /* Sets the height*/
 }
 
 .beach {
-	background-position: -2px -2px !important;
+	background-position: -2px -2px !important; /* Sets which part of the spritesheet we are going to use and overwrites existing CSS rules */
 }
 
 .boat {
-	background-position: -304px -2px !important;  
+	background-position: -304px -2px !important; /* Sets which part of the spritesheet we are going to use and overwrites existing CSS rules */ 
 }
 
 #availability {
@@ -79,6 +79,6 @@
 	margin-top:35px;
 	margin-left:3.8%;
 	width:25%;
-	line-height:32px;
+	line-height:32px; /* Sets the line height of the child elements */
 	min-width:250px;
 }
