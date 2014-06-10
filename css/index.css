@@ -46,7 +46,7 @@
 	display:inline-block;
 }
 
-#content > h2 {
+#content > h2 { /* Selects only the first layer of child elements of type h2 in #content */
 	padding-top:40px;
 }
 
