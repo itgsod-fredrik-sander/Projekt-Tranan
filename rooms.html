@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- Specifies the rules for the markup language so browsers renders the document correctly -->
 <html>
 	<head>
-		<meta charset="utf-8"/>
-        <link rel="stylesheet" type="text/css" href="css/base.css"> 
+		<meta charset="utf-8"/> <!-- Specifies the encoding for the HTML document - we do this to avoid character encoding related problems for as many people as possible -->
+        <link rel="stylesheet" type="text/css" href="css/base.css">  <!-- Includes our stylesheet to our HTML document -->
 		<link rel="stylesheet" type="text/css" href="css/rooms.css"> 
-		<title>Hotel Tranan</title>
+		<title>Hotel Tranan</title> <!-- Sets the title of the website -->
 		<script>
 			var room = 1; /* Declares and initializes the variable which will keep track of the room the user has selected */
 			
@@ -53,24 +53,22 @@
 		<div id="topimage"></div>
 		<div id="wrapper">
             <div id="navbar" class="center">
-				<ul>
-				<ul>
-				    <li><a href="index.html">Tranan</a></li>
+				<ul> <!-- Starts an unordered list -->
+				    <li><a href="index.html">Tranan</a></li> <!-- Adds a list item element together and makes it clickable -->
 				    <li><a href="index.html">Home</a></li>
 				    <li><a href="#">Rooms</a></li>
 				    <li><a href="attractions.html">Attractions</a></li>
 				</ul>
-				</ul>
             </div>
 			
-			<div id="content" class="center">
+			<div id="content" class="center"> <!-- Starts the div element with ID content and inherit CSS rules from class center -->
                 <div id="preview">
                     <img id="previewimage" class="border-black"/>
                     <p>Ted non orci rhoncus, molestie nisi quis, gravida neque. Donec et fringilla magna, vel sollicitudin magna. Curabitur vehicula rutrum quam. Maecenas lacinia tempor neque donec orci.</p>
                 </div>
                 <div id="roomselector">
                     <h2 class="luxury">Rooms</h2>
-                    <img class="thumbnail room1 border-black" onclick="onThumbnailClick('preview',-2, -2, 1)"/>
+                    <img class="thumbnail room1 border-black" onclick="onThumbnailClick('preview',-2, -2, 1)"/> <!-- Calls JavaScript function when clicked with appropriate arguments-->
                     <img class="thumbnail room2 border-black" onclick="onThumbnailClick('preview',-554, -2, 2)"/>
                     <img class="thumbnail room3 border-black" onclick="onThumbnailClick('preview',-2, -444, 3)">
                     <img class="thumbnail room4 border-black" onclick="onThumbnailClick('preview',-554, -886, 4)"/>
