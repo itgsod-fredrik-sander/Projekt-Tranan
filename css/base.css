@@ -103,4 +103,5 @@ body {
 
 #footer div a:hover {
 	color:turquoise; /* Changes color of text when hovering with mouse on one of the footer links*/
+	transition-duration:1s; /* Makes the transition take effect over one second */
 }
