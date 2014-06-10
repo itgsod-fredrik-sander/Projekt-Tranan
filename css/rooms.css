@@ -1,4 +1,4 @@
-div#preview {
+#preview {
     width:53%;
     float:left;
     text-align:center;
@@ -13,28 +13,28 @@ div#preview {
 	margin-bottom:75px;
 }
 
-div#preview p {
+#preview p {
 	margin-top:440px;
 }
 
-div#preview image {
+#preview image {
     border:1px solid black;
 }
 
-div#roomselector {
+#roomselector {
     float:left;
     width:40%;
     text-align:center;
 	min-width:150px;
 }
 
-div#roomselector h2 {
+#roomselector h2 {
     padding-top:20px;
     padding-bottom:31px;
 }
 
 /* Loads the spritesheet for all images in rooms.html's roomselector */
-div#roomselector img {
+#roomselector img {
 	background: url(../images/spritesheet-rooms-thumbnails.jpg) no-repeat;
 	width:150px;
 	height:75px;
@@ -97,7 +97,7 @@ div#roomselector img {
 	background-position: -190px -2px !important;
 }
 
-div#book {
+#book {
     width: 76%;
     height:50px;
     background-color:#9B1C26;
