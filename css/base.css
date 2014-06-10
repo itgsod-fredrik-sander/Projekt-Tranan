@@ -99,9 +99,9 @@ body {
 #footer div a {
 	text-decoration: none;
 	color:#ffffff;
+	transition:color 1s; /* Transitions to 'color' value over one second both forward and backwards */
 }
 
 #footer div a:hover {
 	color:turquoise; /* Changes color of text when hovering with mouse on one of the footer links*/
-	transition-duration:1s; /* Makes the transition take effect over one second */
 }
