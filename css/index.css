@@ -9,9 +9,7 @@
 }
 
 .container img {
-	border:1px solid black;
-    /* Fix centering issue */
-    display:block;
+    display:block; /* Fix centering issue */
     margin:0px auto;
 }
 
