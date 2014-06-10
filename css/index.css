@@ -15,12 +15,12 @@
 
 .container {
   width:100%;
-  overflow:auto;
+  overflow:auto; /* Works the same way as overflow:scroll but only gives the div a scrollbar if really needed  */
 }
 
 .container img {
     display:block; /* Fix centering issue */
-    margin:0px auto;
+    margin:0px auto; /* Centers the div */
 }
 
 .container div {
@@ -28,21 +28,21 @@
 	padding-top:35px;
 	width:33.33%;
 	background-color:white;
-	min-width:325px;
+	min-width:325px; /* Sets the minimum width of the element - neccessary when working with liquid design - so it does not flow together with other elements */
 }
 
 .container div p {
-	padding-left:5%;
+	padding-left:5%; 
 	padding-right:5%;
 }
 
 .container .review {
-    text-align:center;
+    text-align:center; /* Aligns text to center of parent */
     padding-bottom:20px;
 }
 
 .text-cursive {
-	font-family:cursive;
+	font-family:cursive; /* Text uses cursive style */
 }
 
 .grey {
