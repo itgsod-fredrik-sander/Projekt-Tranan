@@ -100,4 +100,7 @@ body {
 	text-decoration: none;
 	color:#ffffff;
 }
-	
+
+#footer div a:hover {
+	color:turquoise; /* Changes color of text when hovering with mouse on one of the footer links*/
+}
