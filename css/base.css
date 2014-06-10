@@ -21,13 +21,13 @@ body {
 	background-color:white;
 }
 
-div#wrapper {
+#wrapper {
 	margin:0 auto;
 	width:90%;
 	max-width:1000px;
 }
 
-div#topimage {
+#topimage {
 	background-image:url('../images/edited-top.jpg');
 	height:250px;
 	width:100%;
@@ -37,13 +37,13 @@ div#topimage {
     box-shadow: 0px 3px 6px black;
 }
 
-div#navbar {
+#navbar {
 	width:100%;
 	margin:0px;
 	background-color:black;
 }
 
-div#navbar li {
+#navbar li {
 	display: inline-block;
 	margin-left:0px;
 	margin-right:0px;
@@ -53,7 +53,7 @@ div#navbar li {
 	max-width:196.8px;
 }
 
-div#navbar li a {
+#navbar li a {
 	display: block;
 	font-family:luxury;
 	font-size:17px;
@@ -64,20 +64,20 @@ div#navbar li a {
 	color:#ffffff;
 }
 
-div#navbar li:hover {
+#navbar li:hover {
     background-color: #9B1C26;
     transition-duration:0.6s;
     transition-delay:0.1s;
 }
 
-div#content {
+#content {
 	margin-top:210px;	
 	border-top:5px black;
 	width:100%;
     box-shadow: 5px 0 5px -5px black, -5px 0 5px -5px black;
 }
 
-div#footer {
+#footer {
 	width:100%;
 	background-color:#171717;
 	color:white;
@@ -86,7 +86,7 @@ div#footer {
     text-align:center;
 }
 
-div#footer div {
+#footer div {
 	width:12.5%;
 	padding-top:10px;
 	padding-bottom:10px;
