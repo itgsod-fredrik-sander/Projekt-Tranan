@@ -1,4 +1,4 @@
-@media (max-width: 450px) { /* */
+@media (max-width: 450px) { /* The following CSS rules takes effect when condition evaluates true. In this case, when our browser window has a max-width of 450px*/
   .container div {
     text-align:center;
   }
